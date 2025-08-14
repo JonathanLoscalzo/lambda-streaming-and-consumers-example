@@ -1,0 +1,26 @@
+{
+  "name": "lambda-streaming-and-consumers-example",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JonathanLoscalzo/lambda-streaming-and-consumers-example#readme",
+  "bugs": {
+    "url": "https://github.com/JonathanLoscalzo/lambda-streaming-and-consumers-example/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonathanLoscalzo/lambda-streaming-and-consumers-example.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@aws-crypto/sha256-js": "^5.2.0",
+    "@aws-sdk/credential-provider-node": "^3.864.0",
+    "@aws-sdk/protocol-http": "^3.370.0",
+    "@aws-sdk/signature-v4": "^3.370.0"
+  }
+}
